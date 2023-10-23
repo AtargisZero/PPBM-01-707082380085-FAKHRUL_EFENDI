@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Fakhrul Efendi</string>
+    <string-array name="Language">
+        <item>English</item>
+        <item>Bahasa Indonesia</item>
+        <item>日本</item>
+    </string-array>
+    <string name="Brontosaurus" translatable="true">Brontosaurus, (genus Brontosaurus), genus of large herbivorous sauropod dinosaurs living during the Late Jurassic and Early Cretaceous epochs (163.5 million to 100.5 million years ago). Its fossil was first discovered in western North America in 1874 and first described in 1879 by American paleontologist Othniel Charles Marsh. In 1903, however, the genus Brontosaurus, which means “thunder lizard” in Greek, was subsumed by the earlier-described genus Apatosaurus. Despite the change in classification, the public still embraced the dinosaur as Brontosaurus, owing to the widespread use of its likeness during much of the 20th century in advertising, motion pictures, and television, as well as the presence of Brontosaurus reconstructions in museums throughout North America and Europe. The genus Brontosaurus was reinstated in 2015 after a morphological study of the family to which those genera belonged revealed that the physical differences between Brontosaurus and Apatosaurus were enough to separate them into two genera. The genus Brontosaurus contains only one species, B. excelsus.</string>
+    <string name="Tyranosaurus" translatable="true">Most tyrannosaurs were large predators, with very large high skulls approaching or well exceeding a full metre (more than three feet) in length. The best-known and largest member of the group is Tyrannosaurus rex, or T. rex. The “king of the tyrant lizards”.</string>
+    <string name="Velociraptor" translatable="true">sickle-clawed dinosaur that flourished in central and eastern Asia during the Late Cretaceous Period (99 million to 65 million years ago). It is closely related to the North American Deinonychus of the Early Cretaceous in that both reptiles were dromaeosaurs.</string>
+    <string name="Spinosaurus" translatable="true">is Genus of theropod dinosaurs belonging to the family Spinosauridae, known from incomplete North African fossils that date to Cenomanian times (roughly 100 to 94 million years ago). Spinosaurus, or “spined reptile,” was named for its “sail back” feature, created by tall vertebral spines.</string>
+</resources>
