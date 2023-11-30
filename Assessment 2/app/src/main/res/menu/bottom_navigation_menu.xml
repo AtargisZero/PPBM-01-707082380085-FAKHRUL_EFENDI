@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- bottom_navigation_menu.xml -->
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/herbivore"
+        android:title="Herbivore"
+        android:icon="@drawable/herbivore"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/carnivore"
+        android:title="Carnivore"
+        android:icon="@drawable/carnivore"
+        tools:ignore="HardcodedText" />
+</menu>
