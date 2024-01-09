@@ -1,0 +1,54 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <!-- You can add any data variables here if needed -->
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/windowBackground"
+        android:padding="6dp">
+
+        <ImageView
+            android:id="@+id/imageRelaxation"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/nature"/>
+
+        <TextView
+            android:id="@+id/textViewRelaxationTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageRelaxation"
+            android:layout_marginTop="16dp"
+            android:text="Relaxation Spots"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="?android:textColorPrimary"/>
+
+        <TextView
+            android:id="@+id/textViewRelaxationDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewRelaxationTitle"
+            android:layout_marginTop="8dp"
+            android:text="Discover peaceful places for ultimate relaxation."
+            android:textSize="16sp"
+            android:textColor="?android:textColorSecondary"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonExploreRelaxation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewRelaxationDescription"
+            android:layout_marginTop="16dp"
+            android:text="Explore Now"
+            android:textColor="?android:textColorPrimary"
+            android:textStyle="bold"
+            android:background="@color/colorPrimary"
+            style="?materialButtonStyle"/>
+    </RelativeLayout>
+</layout>

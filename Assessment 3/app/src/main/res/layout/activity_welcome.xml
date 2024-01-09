@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="6dp">
+
+    <ImageView
+        android:id="@+id/imageWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/welcome"
+        android:scaleType="fitXY"
+        android:layout_above="@+id/textWelcome" />
+
+    <TextView
+        android:id="@+id/textWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Your App"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_centerInParent="true" />
+
+    <com.ncorti.slidetoact.SlideToActView
+        android:id="@+id/slideToActView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:text="Get Started"
+        app:text_style="bold"
+        app:text_color="@color/black"
+        app:slider_icon_color="@color/white"
+        app:inner_color="@color/colorPrimary"
+        app:outer_color="@color/colorPrimaryDark"/>
+
+</RelativeLayout>

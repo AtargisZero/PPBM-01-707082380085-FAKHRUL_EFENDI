@@ -1,0 +1,77 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <!-- You can add any data variables here if needed -->
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/windowBackground"
+        android:padding="6dp">
+
+        <ImageView
+            android:id="@+id/imageAdventure"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/nature"/>
+
+        <TextView
+            android:id="@+id/textViewAdventureTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageAdventure"
+            android:layout_marginTop="16dp"
+            android:text="Adventure Destinations"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="?android:textColorPrimary"/>
+
+        <TextView
+            android:id="@+id/textViewAdventureDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewAdventureTitle"
+            android:layout_marginTop="8dp"
+            android:text="Explore thrilling adventures around the world."
+            android:textSize="16sp"
+            android:textColor="?android:textColorSecondary"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonExploreAdventure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewAdventureDescription"
+            android:layout_marginTop="16dp"
+            android:text="Explore Now"
+            android:textColor="?android:textColorPrimary"
+            android:textStyle="bold"
+            android:background="@color/colorPrimary"
+            style="?materialButtonStyle"/>
+
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/slideImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/buttonExploreAdventure"
+            android:layout_above="@+id/showBottomSheetButton"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/showBottomSheetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Show Bottom Sheet"
+            android:layout_marginTop="6dp"
+            android:textColor="?android:textColorPrimary"
+            android:textStyle="bold"
+            android:background="@color/colorPrimary"
+            style="?materialButtonStyle" />
+
+    </RelativeLayout>
+</layout>

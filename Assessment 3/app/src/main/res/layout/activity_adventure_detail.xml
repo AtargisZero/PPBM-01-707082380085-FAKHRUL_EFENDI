@@ -1,0 +1,43 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <!-- You can add any data variables here if needed -->
+    </data>
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp"
+    tools:context=".AdventureDetailActivity">
+
+    <ImageView
+        android:id="@+id/imageAdventureDetail"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/nature"/>
+
+    <TextView
+        android:id="@+id/textViewAdventureDetailTitle"
+        style="@style/DetailTitle"
+        android:layout_below="@id/imageAdventureDetail"
+        android:layout_marginTop="16dp"
+        android:text="Adventure Destinations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewAdventureDetailDescription"
+        style="@style/DetailDescription"
+        android:layout_below="@id/textViewAdventureDetailTitle"
+        android:layout_marginTop="8dp"
+        android:text="Explore thrilling adventures around the world."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Additional UI Elements -->
+    <!-- Add more TextViews, ImageViews, or other UI elements as needed to display detailed information -->
+
+    </RelativeLayout>
+</layout>
