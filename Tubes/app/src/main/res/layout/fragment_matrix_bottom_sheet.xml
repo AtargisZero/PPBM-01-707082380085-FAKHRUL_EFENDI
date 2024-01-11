@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/matrixBlack"
+    android:padding="16dp">
+
+    <!-- Matrix-themed TextView -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textColor="#00FF00"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Additional information -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/botsheetxt"
+        android:textColor="@color/matrixGreen"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/RedPill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#FF0000"
+        android:minHeight="48dp"
+        android:text="@string/redpill"
+        android:padding="4dp"
+        android:textColor="#E0E0E0"
+        android:textStyle="bold" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="20dp">
+        </Space>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/BluePill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="6dp"
+        android:autoSizeTextType="none"
+        android:background="#0000FF"
+        android:minHeight="48dp"
+        android:text="@string/bluepill"
+        android:textColor="#B0BEC5"
+        android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

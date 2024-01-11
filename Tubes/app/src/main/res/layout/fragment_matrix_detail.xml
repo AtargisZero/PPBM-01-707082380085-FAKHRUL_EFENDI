@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/darkAppBackground">
+
+    <!-- Banner on top -->
+    <ImageView
+        android:id="@+id/bannerImageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/banner1"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Poster below banner -->
+    <ImageView
+        android:id="@+id/posterImageView"
+        android:layout_width="150dp"
+        android:layout_height="225dp"
+        android:layout_below="@id/bannerImageView"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/poster1"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"/>
+
+    <TextView
+        android:id="@+id/releaseYearTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/posterImageView"
+        android:textSize="22sp"
+        android:textColor="@color/matrixGreen"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Title below the poster -->
+    <TextView
+        android:id="@+id/titleDetailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/releaseYearTextView"
+        android:textSize="22sp"
+        android:textColor="@color/matrixGreen"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Ratingbar below the title -->
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleDetailTextView"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:numStars="5"
+        android:stepSize="0.5"
+        android:isIndicator="true"
+        android:rating="4.0"/>
+
+    <!-- Synopsis below the rating bar -->
+    <TextView
+        android:id="@+id/synopsisTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ratingBar"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/matrixGreen"
+        android:text="This is the movie synopsis. Add more details as needed."
+        android:lineSpacingExtra="4dp"/>
+
+    <!-- Add more details as needed -->
+
+</RelativeLayout>

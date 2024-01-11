@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Array for movie titles -->
+    <string-array name="movie_titles">
+        <item>The Matrix</item>
+        <item>The Matrix Reloaded</item>
+        <item>The Matrix Revolutions</item>
+        <item>The Matrix Resurrections</item> <!-- Added the new movie -->
+        <!-- Add more titles as needed -->
+    </string-array>
+
+    <!-- Array for release years -->
+    <string-array name="release_years">
+        <item>1999</item>
+        <item>2003</item>
+        <item>2003</item>
+        <item>2021</item> <!-- Added the release year for the new movie -->
+        <!-- Add more release years as needed -->
+    </string-array>
+
+    <!-- Array for movie descriptions -->
+    <string-array name="descriptions">
+        <item>
+            A computer hacker named Neo learns about the true nature of his reality
+            when he is contacted by mysterious rebels. They reveal to him that the
+            world he knows is a simulated reality created by sentient machines that
+            have enslaved humanity. Neo joins the rebels in their fight against the
+            machines, unlocking extraordinary powers along the way.
+        </item>
+        <item>
+            Neo, Trinity, and Morpheus continue their fight against the machines
+            as the war between humans and artificial intelligence intensifies.
+            The Matrix Reloaded explores deeper into the world of the Matrix,
+            unveiling new mysteries and challenges for our protagonists.
+        </item>
+        <item>
+            The war between humans and machines reaches its climax as Neo confronts
+            his destiny. The Matrix Revolutions is the epic conclusion to the
+            Matrix trilogy, revealing the ultimate fate of humanity and the machines.
+        </item>
+        <item>
+            In The Matrix Resurrections, a new chapter unfolds as Neo awakens once
+            again to a world he does not recognize. The story explores the
+            consequences of his return and the evolution of the Matrix universe.
+        </item>
+        <!-- Add more descriptions as needed -->
+    </string-array>
+
+    <!-- Array for poster images (assuming you have poster images in the drawable folder) -->
+    <array name="poster_images">
+        <item>@drawable/poster1</item>
+        <item>@drawable/poster2</item>
+        <item>@drawable/poster3</item>
+        <item>@drawable/poster4</item> <!-- Add the resource for the new poster -->
+        <!-- Add more poster images as needed -->
+    </array>
+
+    <!-- Array for banner images (assuming you have banner images in the drawable folder) -->
+    <array name="banner_images">
+        <item>@drawable/banner1</item>
+        <item>@drawable/banner2</item>
+        <item>@drawable/banner3</item>
+        <item>@drawable/banner4</item> <!-- Add the resource for the new banner -->
+        <!-- Add more banner images as needed -->
+    </array>
+
+    <string-array name="matrix_options">
+        <item>Reload Matrix</item>
+        <item>Deja Vu Check</item>
+        <item>Agent Smith Encounter</item>
+        <item>Hack the Matrix</item>
+        <item>Nebuchadnezzar Exploration</item>
+        <!-- Add more Matrix-themed options -->
+    </string-array>
+
+</resources>

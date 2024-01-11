@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/banner1"
+        android:scaleType="centerCrop"/>
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/banner"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/playButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/aboutButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:autoSizeTextType="none"
+        android:background="@drawable/curved_button_background_green"
+        android:gravity="center"
+        android:text="@string/play_button"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/aboutButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/settingButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:autoSizeTextType="none"
+        android:background="@drawable/curved_button_background_green"
+        android:gravity="center"
+        android:text="@string/about_button"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/settingButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:autoSizeTextType="none"
+        android:background="@drawable/curved_button_background_green"
+        android:gravity="center"
+        android:text="@string/setting_button"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/matrixButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/settingButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:autoSizeTextType="none"
+        android:background="@drawable/curved_button_background_green"
+        android:gravity="center"
+        android:text="@string/buttom_sheet"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/showSnackbarButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/matrixButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:autoSizeTextType="none"
+        android:background="@drawable/curved_button_background_green"
+        android:minHeight="48dp"
+        android:text="@string/snack_bar"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/exitButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/showSnackbarButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:autoSizeTextType="none"
+        android:background="@drawable/curved_button_background_green"
+        android:minHeight="48dp"
+        android:text="@string/exit_button"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    <!-- You can add more elements like icons, animations, or themed decorations here -->
+
+</RelativeLayout>

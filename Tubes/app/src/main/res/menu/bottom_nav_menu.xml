@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_movies"
+        android:title="@string/movie"
+        android:icon="@drawable/icon"
+        />
+
+    <item
+        android:id="@+id/action_actor"
+        android:title="@string/actor"
+        android:icon="@drawable/icon"
+         />
+
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/about_button"
+        android:icon="@drawable/icon"
+         />
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/setting_button"
+        android:icon="@drawable/icon"
+         />
+
+    <item
+        android:id="@+id/action_exit"
+        android:title="@string/exit_button"
+        android:icon="@drawable/icon"
+         />
+</menu>

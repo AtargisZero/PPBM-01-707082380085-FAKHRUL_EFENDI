@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="greenText">#00FF00</color>
+    <color name="matrixGreen">#00FF00</color>
+    <color name="matrixBlack">#000000</color>
+    <color name="matrixBlue">#000066</color>
+    <color name="matrixGray">#443F3F</color>s
+    <color name="darkAppBackground">#FF000000</color>
+    <color name="matrixCodeWhite">#FFFFFF</color>
+    <color name="matrixRed">#FFC90000</color>
+    <!-- Light theme colors -->
+    <color name="lightMatrixPrimaryColor">#ffffff</color>
+    <color name="lightMatrixPrimaryDarkColor">#e0e0e0</color>
+    <color name="lightMatrixAccentColor">#009688</color>
+</resources>

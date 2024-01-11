@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "706000630498",
+    "project_id": "the-matrix-tubes",
+    "storage_bucket": "the-matrix-tubes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706000630498:android:28b64109d023fa66cda4bb",
+        "android_client_info": {
+          "package_name": "com.example.registerandlogin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRN3n4drKFtqMdC3u6kZyunX1qqB6xgP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706000630498:android:4e0327fe7f98bd10cda4bb",
+        "android_client_info": {
+          "package_name": "com.example.thematrix"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRN3n4drKFtqMdC3u6kZyunX1qqB6xgP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

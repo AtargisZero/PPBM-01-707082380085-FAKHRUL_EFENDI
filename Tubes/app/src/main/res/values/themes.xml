@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MatrixTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/matrixGreen</item>
+        <item name="colorPrimaryDark">@color/matrixBlack</item>
+        <item name="colorAccent">@color/matrixGreen</item>
+        <!-- Add more theme attributes as needed -->
+    </style>
+    <style name="LightMatrixTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/lightMatrixPrimaryColor</item>
+        <item name="colorPrimaryDark">@color/lightMatrixPrimaryDarkColor</item>
+        <item name="colorAccent">@color/lightMatrixAccentColor</item>
+        <!-- Add more theme attributes as needed for the light Matrix theme -->
+    </style>
+</resources>

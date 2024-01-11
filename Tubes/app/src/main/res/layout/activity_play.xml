@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkAppBackground"
+    tools:context=".MainActivity">
+
+    <!-- ImageSlideshow added here -->
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/imageSlider"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_above="@+id/bottomNavigationView"
+        app:iss_auto_cycle="true"
+        app:iss_period="3000"
+        app:iss_delay="0">
+    </com.denzcoskun.imageslider.ImageSlider>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/imageSlider">
+        <!-- This FrameLayout will host the fragment -->
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottomNavigationView"
+        android:layout_alignParentBottom="true"
+        android:background="@color/matrixGreen"
+        app:menu="@menu/bottom_nav_menu"
+        app:itemIconTint="@color/matrixBlack"
+        app:itemTextColor="@color/matrixBlack"/>
+
+</RelativeLayout>

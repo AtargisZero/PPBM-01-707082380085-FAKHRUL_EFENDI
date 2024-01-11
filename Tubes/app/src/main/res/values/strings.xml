@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">The Matrix</string>
+    <string name="settings_title">App Settings</string>
+    <string name="toggle_music">Background Music</string>
+    <string name="change_language">Chose Language</string>
+    <string name="bahasa_indonesia">Indonesian</string>
+    <string name="english">English</string>
+    <string name="japanese">日本</string>
+
+    <!-- Actor names -->
+    <string-array name="actor_names">
+        <item>Keanu Reeves</item>
+        <item>Carrie-Anne Moss</item>
+        <item>Laurence Fishburne</item>
+        <item>Hugo Weaving</item>
+        <item>Joe Pantoliano</item>
+        <item>Gloria Foster</item>
+        <item>Jada Pinkett Smith</item>
+        <item>Collin Chou</item>
+        <item>Monica Bellucci</item>
+        <item>Harold Perrineau</item>
+    </string-array>
+
+    <!-- Actor roles -->
+    <string-array name="actor_roles">
+        <item>Neo</item>
+        <item>Trinity</item>
+        <item>Morpheus</item>
+        <item>Agent Smith</item>
+        <item>Cypher</item>
+        <item>Oracle</item>
+        <item>Niobe</item>
+        <item>Seraph</item>
+        <item>Persephone</item>
+        <item>Link</item>
+    </string-array>
+
+    <!-- Actor additional information -->
+    <string-array name="actor_additional_info">
+        <item>Keanu Reeves was born on September 2, 1964, in Beirut, Lebanon. Known for his role as Neo in "The Matrix" trilogy, he is widely recognized for his philanthropy and is considered one of the nicest people in Hollywood.</item>
+        <item>Carrie-Anne Moss, born on August 21, 1967, in Burnaby, British Columbia, Canada. In addition to her role in "The Matrix," she has a diverse career in film and television, known for her strong and dynamic performances.</item>
+        <item>Laurence Fishburne, born on July 30, 1961, in Augusta, Georgia, USA. An acclaimed actor and producer, he portrayed Morpheus in "The Matrix" series, earning critical acclaim for his performance.</item>
+        <item>Hugo Weaving, born on April 4, 1960, in Ibadan, Nigeria. A versatile actor known for his roles in various films, he played the iconic character Agent Smith in "The Matrix."</item>
+        <item>Joe Pantoliano, born on September 12, 1951, in Hoboken, New Jersey, USA. An accomplished actor, he portrayed Cypher in "The Matrix," bringing depth to the complex character.</item>
+        <item>Gloria Foster, born on November 15, 1933, in Chicago, Illinois, USA. A talented actress, she played the enigmatic Oracle in "The Matrix" series.</item>
+        <item>Jada Pinkett Smith, born on September 18, 1971, in Baltimore, Maryland, USA. An actress, producer, and director, she portrayed Niobe in the later installments of "The Matrix."</item>
+        <item>Collin Chou, born on August 11, 1967, in Taipei, Taiwan. A martial artist and actor, he played the role of Seraph, the guardian of the Oracle, in "The Matrix Reloaded" and "The Matrix Revolutions."</item>
+        <item>Monica Bellucci, born on September 30, 1964, in Città di Castello, Italy. An acclaimed actress and model, she portrayed Persephone in "The Matrix Reloaded" and "The Matrix Revolutions."</item>
+        <item>Harold Perrineau, born on August 7, 1963, in Brooklyn, New York, USA. An actor and producer, he played the role of Link, a hovercraft pilot, in "The Matrix Reloaded" and "The Matrix Revolutions."</item>
+    </string-array>
+    <string name="play_button">Play</string>
+    <string name="about_button">About</string>
+    <string name="setting_button">Setting</string>
+    <string name="buttom_sheet">Buttom Sheet</string>
+    <string name="snack_bar">Show Snackbar</string>
+    <string name="exit_button">Exit</string>
+    <string name="get_started">Get Started</string>
+    <string name="welcome">Welcome to The Matrix</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="dont_have">Don\'t have an Account? Click here to register</string>
+    <string name="lgSuc_toast">Login successful! Welcome back,  %s</string>
+    <string name="rgSuc_toast">Registration successful! Welcome, %s</string>
+    <string name="rst_dlg">Restart Required !!!</string>
+    <string name="rst_txt">The app needs to restart to apply the selected language.</string>
+    <string name="cnc">Cancel</string>
+    <string name="rst">Restart</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ext_conf">Exit Confirmation</string>
+    <string name="ext_txt">Are you sure you want to exit?</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="rating_txt">How would you rate our app?</string>
+    <string name="botsheetxt">This is the Matrix. Explore the digital world.</string>
+    <string name="redpill">Take the Red Pill</string>
+    <string name="bluepill">Take the Blue Pill</string>
+    <string name="matrixProChoice">You chose to %s like a Matrix Pro</string>
+    <string name="exploreAction">Explore</string>
+    <string name="welcomeMessage">Welcome to the Matrix!</string>
+    <string name="abt_txt">Welcome to The Matrix App!\n\nExplore the digital world and enjoy the Matrix experience.</string>
+    <string name="abt_info">Name: Fakhrul Efendi\nCollege: Telkom University\nLocation: Bandung</string>
+    <string name="abt_ver">Version 1.0\nDeveloped by Fakhrul Efendi\nCopyright © 2023 The Matrix Corporation</string>
+    <string name="back">Back</string>
+    <string name="movie">Movies</string>
+    <string name="actor">Actor</string>
+    <string name="img">Images</string>
+    <string name="game">Game</string>
+    <string name="hack">\"Hacking successful!\"</string>
+    <string name="rst_spinner">Alert Restart!!!</string>
+    <string name="txt_spinner">You Have Chosen to restart the Matrix!!!</string>
+    <string name="tst_spinner">Restart option terminated!!!</string>
+    <string name="tst_rst_spinner">Matrix will restart in 2 second!!!</string>
+    <string name="devu_title">Notification!!!</string>
+    <string name="devu_txt">You are currently in /s .</string>
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">マトリックス</string>
+    <string name="settings_title">アプリの設定</string>
+    <string name="toggle_music">背景音楽</string>
+    <string name="change_language">言語選択</string>
+    <string name="bahasa_indonesia">インドネシア語</string>
+    <string name="english">英語</string>
+    <string name="japanese">日本</string>
+
+    <!-- Actor names -->
+    <string-array name="actor_names">
+        <item>Keanu Reeves</item>
+        <item>Carrie-Anne Moss</item>
+        <item>Laurence Fishburne</item>
+        <item>Hugo Weaving</item>
+        <item>Joe Pantoliano</item>
+        <item>Gloria Foster</item>
+        <item>Jada Pinkett Smith</item>
+        <item>Collin Chou</item>
+        <item>Monica Bellucci</item>
+        <item>Harold Perrineau</item>
+    </string-array>
+
+    <!-- Actor roles -->
+    <string-array name="actor_roles">
+        <item>Neo</item>
+        <item>Trinity</item>
+        <item>Morpheus</item>
+        <item>Agente Smith</item>
+        <item>Cypher</item>
+        <item>Oracle</item>
+        <item>Niobe</item>
+        <item>Seraph</item>
+        <item>Persephone</item>
+        <item>Link</item>
+    </string-array>
+
+    <!-- Actor additional information -->
+    <string-array name="actor_additional_info">
+        <item>Keanu Reevesは1964年9月2日、レバノンのベイルートで生まれました。"The Matrix"三部作でのネオ役で知られ、その慈善活動から広く評価され、ハリウッドでも最も親切な人物の一人とされています。</item>
+        <item>Carrie-Anne Mossは1967年8月21日、カナダのブリティッシュコロンビア州バーナビー生まれ。"The Matrix"での役割に加え、映画やテレビでの多様なキャリアで強力でダイナミックな演技で知られています。</item>
+        <item>Laurence Fishburneは1961年7月30日、アメリカ合衆国ジョージア州オーガスタ生まれ。称賛される俳優でありプロデューサーで、"The Matrix"シリーズでモーフィアスを演じ、その演技に対して批評家からの称賛を得ました。</item>
+        <item>Hugo Weavingは1960年4月4日、ナイジェリアのイバダン生まれ。さまざまな映画での役割で知られる多才な俳優で、"The Matrix"でアイコニックなキャラクター、エージェント・スミスを演じました。</item>
+        <item>Joe Pantolianoは1951年9月12日、アメリカ合衆国ニュージャージー州ホーボーケン生まれ。実績ある俳優で、"The Matrix"でサイファーを演じ、複雑なキャラクターに深みをもたらしました。</item>
+        <item>Gloria Fosterは1933年11月15日、アメリカ合衆国イリノイ州シカゴ生まれ。才能ある女優で、"The Matrix"シリーズで謎めいたオラクルを演じました。</item>
+        <item>Jada Pinkett Smithは1971年9月18日、アメリカ合衆国メリーランド州ボルチモア生まれ。女優、プロデューサー、監督として活動し、"The Matrix"の後の作品でナイオビを演じました。</item>
+        <item>Collin Chouは1967年8月11日、台湾台北生まれ。武道家であり俳優で、"The Matrix Reloaded"と"The Matrix Revolutions"でオラクルの守護者であるセラフを演じました。</item>
+        <item>Monica Bellucciは1964年9月30日、イタリアのチッタ・ディ・カステッロ生まれ。称賛される女優とモデルであり、"The Matrix Reloaded"と"The Matrix Revolutions"でペルセポネを演じました。</item>
+        <item>Harold Perrineauは1963年8月7日、アメリカ合衆国ニューヨーク州ブルックリン生まれ。俳優およびプロデューサーであり、"The Matrix Reloaded"と"The Matrix Revolutions"でホバークラフトのパイロットであるリンクを演じました。</item>
+    </string-array>
+    <string name="play_button">プレー</string>
+    <string name="about_button">について</string>
+    <string name="setting_button">設定</string>
+    <string name="buttom_sheet">ボトムシート</string>
+    <string name="snack_bar">スナックバーを表示</string>
+    <string name="exit_button">出口</string>
+    <string name="get_started">スタート</string>
+    <string name="welcome">マトリックスへようこそ</string>
+    <string name="login">ログイン</string>
+    <string name="register">登録</string>
+    <string name="dont_have">アカウントをお持ちでないですか？登録するにはここをクリック</string>
+    <string name="lgSuc_toast">ログイン成功 お帰りなさい,  %s</string>
+    <string name="rgSuc_toast">登録成功 ようこそ, %s</string>
+    <string name="rst_dlg">再起動が必要です</string>
+    <string name="rst_txt">選択した言語を適用するには、アプリを再起動する必要があります。</string>
+    <string name="cnc">キャンセル</string>
+    <string name="rst">リスタート</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <string name="ext_conf">終了確認</string>
+    <string name="ext_txt">本当に出たいのか？</string>
+    <string name="email">電子メール</string>
+    <string name="pass">パスワード</string>
+    <string name="rating_txt">私たちのアプリをどう評価しますか？</string>
+    <string name="botsheetxt">これがマトリックスだ デジタルの世界を探検しよう。</string>
+    <string name="redpill">赤いピルを飲む</string>
+    <string name="bluepill">青い薬を飲む</string>
+    <string name="matrixProChoice">あなたはマトリックスのプロのように%sを選んだ</string>
+    <string name="exploreAction">エクスペリエンス</string>
+    <string name="welcomeMessage">マトリックスへようこそ</string>
+    <string name="abt_txt">マトリックスアプリへようこそ！デジタルワールドを探検し、マトリックス体験をお楽しみください。</string>
+    <string name="abt_info">名前 Fakhrul Efendi Telkom University バンドン</string>
+    <string name="abt_ver">Version 1.0n developed by Fakhrul Efendi/Copyright © 2023 The Matrix Corporation</string>
+    <string name="back">バック</string>
+    <string name="movie">映画</string>
+    <string name="actor">俳優</string>
+    <string name="img">画像</string>
+    <string name="game">ゲーム</string>
+    <string name="hack">「ハッキング成功</string>
+    <string name="rst_spinner">アラート再起動!</string>
+    <string name="txt_spinner">あなたはマトリックスの再スタートを選んだ!</string>
+    <string name="tst_spinner">再起動オプションが終了した</string>
+    <string name="tst_rst_spinner">マトリックスは2秒後に再スタートする!</string>
+    <string name="devu_title">お知らせだ！</string>
+    <string name="devu_txt">あなたは現在/sにいます。</string>
+
+</resources>

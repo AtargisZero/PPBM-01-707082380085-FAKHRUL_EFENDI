@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/matrixBlack">
+
+    <!-- Banner ImageView at the Top -->
+    <ImageView
+        android:id="@+id/neoImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/neo"
+        android:scaleType="centerCrop"
+        android:animation="@anim/scale_up"
+        tools:ignore="ContentDescription" />
+
+
+    <com.ncorti.slidetoact.SlideToActView
+        android:id="@+id/slideToActView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:animation="@anim/slide_to_act_animation"
+        app:text="@string/get_started"
+        app:text_style="bold"
+        app:text_color="@color/matrixGreen"
+        app:slider_icon_color="@color/matrixBlack"
+        app:inner_color="@color/matrixGreen"
+        app:outer_color="@color/matrixBlack"/>
+
+</RelativeLayout>

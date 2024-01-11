@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bordered_background"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rst_spinner"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/matrixGreen"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/dialogMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_spinner"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:textColor="@color/matrixGreen"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/noButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/curved_button_background_red"
+            android:text="@string/cnc"
+            android:textColor="@color/matrixCodeWhite" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/yesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rst"
+            android:textColor="@color/matrixBlack"
+            android:background="@drawable/curved_button_background_green"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+</LinearLayout>

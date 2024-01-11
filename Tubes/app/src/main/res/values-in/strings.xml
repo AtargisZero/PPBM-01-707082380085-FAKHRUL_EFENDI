@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">The Matrix</string>
+    <string name="settings_title">Pengaturan Aplikasi</string>
+    <string name="toggle_music">Musik Latar Belakang</string>
+    <string name="change_language">Pilih Bahasa</string>
+    <string name="bahasa_indonesia">Bahasa Indonesia</string>
+    <string name="english">Inggris</string>
+    <string name="japanese">Jepang</string>
+
+    <!-- Actor names -->
+    <string-array name="actor_names">
+        <item>Keanu Reeves</item>
+        <item>Carrie-Anne Moss</item>
+        <item>Laurence Fishburne</item>
+        <item>Hugo Weaving</item>
+        <item>Joe Pantoliano</item>
+        <item>Gloria Foster</item>
+        <item>Jada Pinkett Smith</item>
+        <item>Collin Chou</item>
+        <item>Monica Bellucci</item>
+        <item>Harold Perrineau</item>
+    </string-array>
+
+    <!-- Actor roles -->
+    <string-array name="actor_roles">
+        <item>Neo</item>
+        <item>Trinity</item>
+        <item>Morpheus</item>
+        <item>Agent Smith</item>
+        <item>Cypher</item>
+        <item>Oracle</item>
+        <item>Niobe</item>
+        <item>Seraph</item>
+        <item>Persephone</item>
+        <item>Link</item>
+    </string-array>
+
+    <!-- Actor additional information -->
+    <string-array name="actor_additional_info">
+        <item>Keanu Reeves lahir pada 2 September 1964 di Beirut, Lebanon. Dikenal karena perannya sebagai Neo dalam trilogi "The Matrix," dia secara luas diakui atas filantropinya dan dianggap sebagai salah satu orang paling baik di Hollywood.</item>
+        <item>Carrie-Anne Moss, lahir pada 21 Agustus 1967 di Burnaby, British Columbia, Kanada. Selain perannya dalam "The Matrix," dia memiliki karir yang beragam di dunia film dan televisi, dikenal karena penampilannya yang kuat dan dinamis.</item>
+        <item>Laurence Fishburne, lahir pada 30 Juli 1961 di Augusta, Georgia, Amerika Serikat. Seorang aktor dan produser terkenal, ia memerankan Morpheus dalam seri "The Matrix," mendapatkan pujian kritis untuk penampilannya.</item>
+        <item>Hugo Weaving, lahir pada 4 April 1960 di Ibadan, Nigeria. Aktor serba bisa yang dikenal atas perannya dalam berbagai film, memerankan karakter ikonis Agent Smith dalam "The Matrix."</item>
+        <item>Joe Pantoliano, lahir pada 12 September 1951 di Hoboken, New Jersey, Amerika Serikat. Aktor berprestasi, memerankan Cypher dalam "The Matrix," memberikan kedalaman pada karakter yang kompleks.</item>
+        <item>Gloria Foster, lahir pada 15 November 1933 di Chicago, Illinois, Amerika Serikat. Aktris berbakat, memerankan Oracle dalam seri "The Matrix."</item>
+        <item>Jada Pinkett Smith, lahir pada 18 September 1971 di Baltimore, Maryland, Amerika Serikat. Seorang aktris, produser, dan sutradara, memerankan Niobe dalam sekuel "The Matrix."</item>
+        <item>Collin Chou, lahir pada 11 Agustus 1967 di Taipei, Taiwan. Seorang seniman bela diri dan aktor, memerankan Seraph, penjaga Oracle, dalam "The Matrix Reloaded" dan "The Matrix Revolutions."</item>
+        <item>Monica Bellucci, lahir pada 30 September 1964 di Città di Castello, Italia. Aktris dan model terkenal, memerankan Persephone dalam "The Matrix Reloaded" dan "The Matrix Revolutions."</item>
+        <item>Harold Perrineau, lahir pada 7 Agustus 1963 di Brooklyn, New York, Amerika Serikat. Aktor dan produser, memerankan Link, pilot hovercraft, dalam "The Matrix Reloaded" dan "The Matrix Revolutions."</item>
+    </string-array>
+    <string name="play_button">Main</string>
+    <string name="about_button">Tentang</string>
+    <string name="setting_button">Pengaturan</string>
+    <string name="buttom_sheet">Lembar Bawah</string>
+    <string name="snack_bar">Tampilkan Snackbar</string>
+    <string name="exit_button">Keluar</string>
+    <string name="get_started">Ayo Mulai</string>
+    <string name="welcome">Selamat datang di The Matrix</string>
+    <string name="login">Masuk</string>
+    <string name="register">Daftar</string>
+    <string name="dont_have">Belum memiliki Akun? Klik di sini untuk mendaftar</string>
+    <string name="lgSuc_toast">Login berhasil! Selamat datang kembali,  %s</string>
+    <string name="rgSuc_toast">Pendaftaran berhasil! Selamat datang, %s</string>
+    <string name="rst_dlg">Mulai Ulang Diperlukan!!!</string>
+    <string name="rst_txt">Aplikasi perlu dimulai ulang untuk menerapkan bahasa yang dipilih.</string>
+    <string name="cnc">Batal</string>
+    <string name="rst">Mulai Ulang</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="ext_conf">Konfirmasi Keluar</string>
+    <string name="ext_txt">Apakah Anda yakin ingin keluar?</string>
+    <string name="email">Email</string>
+    <string name="pass">Kata sandi</string>
+    <string name="rating_txt">Bagaimana Anda menilai aplikasi kami?</string>
+    <string name="botsheetxt">Ini adalah Matrix. Jelajahi dunia digital.</string>
+    <string name="redpill">Minum Pil Merah</string>
+    <string name="bluepill">Minum Pil Biru</string>
+    <string name="matrixProChoice">Anda memilih untuk %s seperti Matrix Pro</string>
+    <string name="exploreAction">Jelajahi</string>
+    <string name="welcomeMessage">Selamat datang di Matrix!</string>
+    <string name="abt_txt">Selamat datang di The Matrix App!\n\nJelajahi dunia digital dan nikmati pengalaman Matrix.</string>
+    <string name="abt_info">Nama Fakhrul Efendi\nKampus: Universitas Telkom\nLokasi: Bandung</string>
+    <string name="abt_ver">Versi 1.0\nDikembangkan oleh Fakhrul Efendi\nHak Cipta © 2023 The Matrix Corporation</string>
+    <string name="back">Kembali</string>
+    <string name="movie">Film</string>
+    <string name="actor">Aktor</string>
+    <string name="img">Gambar</string>
+    <string name="game">Permainan</string>
+    <string name="hack">\"Peretasan berhasil!\"</string>
+    <string name="rst_spinner">Peringatan Restart !!!</string>
+    <string name="txt_spinner">Anda Telah Memilih untuk memulai kembali Matrix!!!</string>
+    <string name="tst_spinner">Opsi restart dihentikan !!!</string>
+    <string name="tst_rst_spinner">Matrix akan memulai ulang dalam 2 detik !!!</string>
+    <string name="devu_title">Pemberitahuan!!!</string>
+    <string name="devu_txt">Anda saat ini berada di /s .</string>
+
+</resources>
